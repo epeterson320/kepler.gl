@@ -27,7 +27,7 @@ import ItemSelector from 'components/common/item-selector/item-selector';
 
 import {SidePanelSection} from 'components/common/styled-components';
 import {Layer} from '@kepler.gl/layers';
-import {Datasets} from 'reducers/table-utils/kepler-table';
+import {Datasets} from 'table-utils';
 
 type Option = {
   id: string;
