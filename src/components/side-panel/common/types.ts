@@ -2,7 +2,7 @@ import React, {MouseEvent} from 'react';
 import {openDeleteModal} from '@kepler.gl/actions';
 import {VisStateActions} from '@kepler.gl/actions';
 import {ActionHandler} from '@kepler.gl/actions';
-import KeplerTable, {Datasets} from 'table-utils';
+import KeplerTable, {Datasets} from '@kepler.gl/table-utils';
 
 export type DatasetInfoProps = {
   dataset: KeplerTable;
