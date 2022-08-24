@@ -1330,7 +1330,7 @@
     "@math.gl/web-mercator" "^3.5.4"
     d3-hexbin "^0.2.1"
 
-"@deck.gl/core@^8.5.7":
+"@deck.gl/core@^8.5.4", "@deck.gl/core@^8.5.7":
   version "8.8.8"
   resolved "https://registry.yarnpkg.com/@deck.gl/core/-/core-8.8.8.tgz#f566575c4c3b52ae77cdbbd225d79a331c1654eb"
   integrity sha512-Vps5IPAa2B6Q8rgnqsKIgfr6BXvAp2fW1ZeyQikcxNkvmlCcqgZs08tv0yg1F8waglEXt58kPh70xNm6OY6jzQ==
@@ -1349,14 +1349,14 @@
     math.gl "^3.6.2"
     mjolnir.js "^2.7.0"
 
-"@deck.gl/extensions@^8.5.7":
+"@deck.gl/extensions@^8.5.4", "@deck.gl/extensions@^8.5.7":
   version "8.8.8"
   resolved "https://registry.yarnpkg.com/@deck.gl/extensions/-/extensions-8.8.8.tgz#a9a705df42f9db3d0b2433a945b39bb275e8e80f"
   integrity sha512-ldLhbhoEet2n8fobPf47Ytt5NAW6d9zolIEslEGe9zgKAQf1dOXnPLNyQVzRj7C9WptcLoQ/82K1ZIJ0IFfIfQ==
   dependencies:
     "@luma.gl/shadertools" "^8.5.16"
 
-"@deck.gl/geo-layers@^8.5.7":
+"@deck.gl/geo-layers@^8.5.4", "@deck.gl/geo-layers@^8.5.7":
   version "8.8.8"
   resolved "https://registry.yarnpkg.com/@deck.gl/geo-layers/-/geo-layers-8.8.8.tgz#80603c41c04fbaf2d7fa5e7eaa83a4b134147dcb"
   integrity sha512-7zMAEgA8ul6lemIAEoizQZ+gPE571cfehrCmbVCG1mdHJ2VbAXVVEWoGQTzRFFpBcOsoeNA5nh/30orPDEAYCw==
@@ -1377,7 +1377,7 @@
     h3-js "^3.7.0"
     long "^3.2.0"
 
-"@deck.gl/layers@^8.5.7":
+"@deck.gl/layers@^8.5.4", "@deck.gl/layers@^8.5.7":
   version "8.8.8"
   resolved "https://registry.yarnpkg.com/@deck.gl/layers/-/layers-8.8.8.tgz#b88a1729ba4558517b8e5b70b1fe41d0f9a1d26e"
   integrity sha512-UeEUpN4gJx5yryDM0ro/V6yL+RVI92LtFwUNghLO4hI1CxOvZvDhJHjtfnkPqAIho6EcVq+3JWZ+q6glm+IusA==
@@ -1398,7 +1398,7 @@
   dependencies:
     "@types/mapbox-gl" "^2.6.3"
 
-"@deck.gl/mesh-layers@^8.5.7":
+"@deck.gl/mesh-layers@^8.5.4", "@deck.gl/mesh-layers@^8.5.7":
   version "8.8.8"
   resolved "https://registry.yarnpkg.com/@deck.gl/mesh-layers/-/mesh-layers-8.8.8.tgz#0cc752750573a493342ee44149b80634583e5841"
   integrity sha512-OzYkLunDfPQzHCvzQ7HvnWMz6G0nMkeh0nLsEEEAAeotBKyeQbXEl08AkkIbBc17yDfJwZwfVIHdLlHAGTF+yg==
@@ -16604,9 +16604,9 @@ write@1.0.3:
     mkdirp "^0.5.1"
 
 ws@^6.0.0, ws@^6.1.0, ws@^6.2.1:
-  version "6.2.1"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.1.tgz#442fdf0a47ed64f59b6a5d8ff130f4748ed524fb"
-  integrity sha512-GIyAXC2cB7LjvpgMt9EKS2ldqr0MTrORaleiOno6TweZ6r3TKtoFQWay/2PceJ3RuBasOHzXNn5Lrw1X0bEjqA==
+  version "6.2.2"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.2.tgz#dd5cdbd57a9979916097652d78f1cc5faea0c32e"
+  integrity sha512-zmhltoSR8u1cnDsD43TX59mzoMZsLKqUweyYBAIvTngR3shc0W6aOZylZmq/7hqyVxPdi+5Ud2QInblgyE72fw==
   dependencies:
     async-limiter "~1.0.0"
 
